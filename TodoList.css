@@ -1,0 +1,110 @@
+/* -------- Container for the whole TodoList ----------- */
+.todo-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*--------- Title ---------- */
+.todo-container h1 {
+  text-align: center;
+}
+
+/*-- Input and Add Task button container --*/
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/*-- Input field for adding new tasks --*/
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+/* --Add Task button -- */
+.input-container .add-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-container .add-button:hover {
+  background-color: #0056b3;
+}
+
+/*--- Task list ---*/
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*--- Individual task item ---*/
+.task-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/*--- Container for each task item ---*/
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*-- Buttons container --*/
+.button-container {
+  display: flex;
+}
+
+/*--- Edit, Save, Delete buttons ---*/
+.button-container button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 5px;
+}
+
+/*--- Edit button ----*/
+.button-container .edit-button {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.button-container .edit-button:hover {
+  background-color: #ffca2a;
+}
+
+/*---- Save button ----*/
+.button-container .save-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-container .save-button:hover {
+  background-color: #218838;
+}
+
+/*--- Delete button ---*/
+.button-container .delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button-container .delete-button:hover {
+  background-color: #c82333;
+}
